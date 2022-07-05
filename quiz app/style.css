@@ -209,15 +209,15 @@ p{
         flex-direction: column;
         background-color: #fff;
         color: black;
-        margin-left: 5px;
-        font-size: 10px;
+        /* margin-left: 5px; */
+        font-size: 9px;
     }
     .contact{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        /* margin-left: 30px; */
+        /* justify-content: center;
+        align-items: center;  */
+        /* margin-left: 30px;*/
     }
     .contact ul{
         margin-top: -17px;
