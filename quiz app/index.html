@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz Time</title>
+</head>
+<body>
+    <div class="alert">
+        <h5>Choose the option before clicking submit!!</h5>
+    </div>
+    <div class="main">
+
+        <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+
+        <div class="box box1">
+            <div class="score">
+                <p>0/0</p>
+            </div>
+            <div class="ques"></div>
+            <input type="hidden" id="hid">
+            <div class="opt">
+
+            </div>
+            <div class="btns">
+                <button class="finish">FINISH</button>
+                <button class="next">NEXT QUIZ</button>
+                <button class="submit">SUBMIT</button>
+            </div>
+        </div>
+        <div class="box box2">
+            <h1>Your score is </h1>
+            <h1 id="fsc">2/3</h1>
+            <div class="btns">
+                <button class="play">PLAY AGAIN</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
